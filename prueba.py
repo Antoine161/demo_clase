@@ -11,9 +11,11 @@ print("Hola vatos")
 
 import numpy as np
 import matplotlib.pyplot as plt
+nb = 100**3
 
 #vamos a graficar una distribución exponencial
-x = np.random.exponential(0.5,100**3)
+x = np.random.exponential(0.5,nb)
 plt.hist(x)
 
-y = np.random.standar_normal(100**3)
+y = np.random.standard_normal(100**3)
+plt.hist(y)
