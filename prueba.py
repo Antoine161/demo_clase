@@ -16,3 +16,4 @@ import matplotlib.pyplot as plt
 x = np.random.exponential(0.5,100**3)
 plt.hist(x)
 
+y = np.random.standar_normal(100**3)
